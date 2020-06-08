@@ -1,0 +1,55 @@
+.addIconHolder{
+    position: absolute;
+    right:35px;
+    top:480px
+}
+.info-box-holder{
+    position: absolute;
+    top: 530px;
+    width: calc(100% - 270px);
+    right: 30px;
+}
+.info-box-holder ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.info-box-holder > ul{
+    width:100%;
+    display: table;
+    table-layout: fixed
+}
+.info-box-holder > ul > li{
+    display: table-cell;
+    padding: 6px;
+}
+.schedule{
+    position: relative;
+    padding: 10px 20px 10px 65px;
+    box-shadow: 0 0 8px #bbb;
+}
+.schedule span{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.schedule .icon{
+    bottom: 10px;
+    left: 15px;
+    font-size: 1.5em;
+}
+
+.MuiFab-primary{
+    background-color: #ff2a79 !important;
+}
+
+.MuiSvgIcon-fontSizeLarge{
+    color: #29bae9 !important
+}
+
+.thermometer{
+    color: #ff2a79;
+    width: 30px;
+    height: 30px;
+}
